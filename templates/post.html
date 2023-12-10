@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#faebd7">
+<center>
+    <form action="./add" method="post">
+        {% csrf_token %}
+        enter the first number:<input  type="text" name="t1"><br>
+        enter the second number:<input type="text" name="t2"><br>
+        <input type="submit" value="add">
+    </form>
+</center>
+</body>
+</html>
